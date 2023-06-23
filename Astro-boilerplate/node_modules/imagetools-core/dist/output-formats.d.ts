@@ -1,0 +1,10 @@
+import type { OutputFormat } from './types';
+export declare const urlFormat: OutputFormat;
+export declare const srcsetFormat: OutputFormat;
+export declare const metadataFormat: OutputFormat;
+export declare const builtinOutputFormats: {
+    url: OutputFormat;
+    srcset: OutputFormat;
+    metadata: OutputFormat;
+    meta: OutputFormat;
+};

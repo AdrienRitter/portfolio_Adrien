@@ -1,0 +1,10 @@
+import { TransformFactory } from '../types';
+export interface ResizeOptions {
+    width: string;
+    w: string;
+    height: string;
+    h: string;
+    aspect: string;
+    ar: string;
+}
+export declare const resize: TransformFactory<ResizeOptions>;

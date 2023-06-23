@@ -1,0 +1,6 @@
+import { ImageTransformation, ImageConfig, TransformFactory } from '../types';
+export declare function generateTransforms(config: ImageConfig, factories: TransformFactory[]): {
+    transforms: ImageTransformation[];
+    parametersUsed: Set<string>;
+    warnings: string[];
+};
